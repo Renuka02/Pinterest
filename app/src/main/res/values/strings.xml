@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Pinterest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="PinterestHomeText">Pinterest</string>
+    <string name="SignUpEmailText">Sign up using email</string>
+    <string name="GoogleHomeText">Continue with Google</string>
+    <string name="FacebookHomeText">Continue with Facebook</string>
+    <string name="title_activity_login_page">Login_page</string>
+    <string name="title_activity_registration_page">RegistrationPage</string>
+    <string name="FacebookLoginText">Login with facebook</string>
+    <string name="GoogleLoginText">google</string>
+    <string name="EmailLoginText">Email</string>
+    <string name="PasswordLoginText">Password</string>
+    <string name="ButtonLoginText">login</string>
+    <string name="FirstNameRegText">First Name</string>
+    <string name="LastNameRegText">Last Name</string>
+    <string name="EmailRegText">Email</string>
+    <string name="PasswordRegText">Password</string>
+    <string name="PasswordDetailRegText">(Only 6 AlphaNumeric Characters)</string>
+    <string name="FemaleRegText">Female</string>
+    <string name="MaleRegText">Male</string>
+    <string name="title_activity_create__board">Create_Board</string>
+    <string name="CreateBoard">Create Board</string>
+    <string name="PinFromBulb">Pin From</string>
+    <string name="GalleryTextBulb">Gallery</string>
+    <string name="CreateBoardBulb">Create Board</string>
+    <string name="GalleryButtonBulb">Gallery</string>
+    <string name="title_activity_create_a__board">Create_a_Board</string>
+    <string name="CreateABoardBulb">Name</string>
+    <string name="title_activity_trial">trial</string>
+    <string name="CreateButtonBulb">Create</string>
+    <string name="MapTextBulb">Map</string>
+    <string name="app_id">1651007848479786</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+</resources>

@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.renukamatkar.pinterest.RegistrationPage"
+    android:clickable="true"
+    android:background="#ffbb85">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/FirstNameRegMessage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="33dp"
+        android:hint="@string/FirstNameRegText"
+        android:width="300dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/LastNameRegMessage"
+        android:layout_below="@+id/FirstNameRegMessage"
+        android:layout_alignStart="@+id/FirstNameRegMessage"
+        android:layout_marginTop="31dp"
+        android:hint="@string/LastNameRegText"
+        android:width="300dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/EmailRegMessage"
+        android:layout_below="@+id/LastNameRegMessage"
+        android:layout_alignStart="@+id/LastNameRegMessage"
+        android:layout_marginTop="37dp"
+        android:hint="@string/EmailRegText"
+        android:width="300dp"
+        android:textColor="#00000000" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/PasswordRegMessage"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/EmailRegMessage"
+        android:layout_alignStart="@+id/EmailRegMessage"
+        android:hint="@string/PasswordRegText" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FemaleRegText"
+        android:id="@+id/FemaleRegButton"
+        android:layout_marginTop="40dp"
+        android:checked="false"
+        android:layout_below="@+id/PasswordRegMessage"
+        android:layout_alignStart="@+id/PasswordRegMessage"
+        android:textColor="#ff1018" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MaleRegText"
+        android:id="@+id/MaleRegButton"
+        android:checked="false"
+        android:layout_alignTop="@+id/FemaleRegButton"
+        android:layout_alignEnd="@+id/PasswordRegMessage"
+        android:textColor="#ff1018" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/PasswordDetailRegText"
+        android:id="@+id/PasswordDetailMessage"
+        android:layout_below="@+id/PasswordRegMessage"
+        android:layout_alignStart="@+id/PasswordRegMessage"
+        android:textColor="#000000" />
+
+</RelativeLayout>

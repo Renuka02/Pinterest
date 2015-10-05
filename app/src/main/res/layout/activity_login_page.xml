@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Login_page"
+    android:background="#ffbb85">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FacebookLoginText"
+        android:id="@+id/FacebookSiginbutton"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#5f2cff"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoogleLoginText"
+        android:id="@+id/GoogleSigninButton"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/FacebookSiginbutton"
+        android:layout_alignParentStart="true"
+        android:background="#ff3738"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/EmailSigninText"
+        android:visibility="visible"
+        android:singleLine="true"
+        android:textIsSelectable="false"
+        android:hint="@string/EmailLoginText"
+        android:width="500dp"
+        android:layout_alignParentEnd="false"
+        android:layout_centerVertical="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/PasswordSigninText"
+        android:layout_below="@+id/EmailSigninText"
+        android:layout_marginTop="55dp"
+        android:hint="@string/PasswordLoginText"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/EmailSigninText" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonLoginText"
+        android:id="@+id/LoginSIginButton"
+        android:layout_marginBottom="41dp"
+        android:background="#ff0d0d"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/PasswordSigninText" />
+</RelativeLayout>
