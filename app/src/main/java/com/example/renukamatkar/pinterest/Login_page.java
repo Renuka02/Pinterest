@@ -1,9 +1,12 @@
 package com.example.renukamatkar.pinterest;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.content.Intent;
 
 public class Login_page extends AppCompatActivity {
 
@@ -13,8 +16,16 @@ public class Login_page extends AppCompatActivity {
         setContentView(R.layout.activity_login_page);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    //this is onclick function for login pages
+    public void login2(View view) {
+        Intent homepageuser = new Intent(this, HomePageUser.class);
+
+        startActivity(homepageuser);
+    }
+
+
+        @Override
+        public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_login_page, menu);
         return true;

@@ -46,21 +46,22 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/SignUpEmailText"
+        android:text="Signup"
         android:id="@+id/EmailHomeButton"
         android:layout_marginTop="35dp"
         android:textColor="#000000"
         android:layout_below="@+id/GoogleHomeButton"
         android:layout_alignParentStart="false"
         android:textSize="20dp"
-        android:layout_alignEnd="@+id/GoogleHomeButton" />
+        android:layout_alignEnd="@+id/GoogleHomeButton"
+        android:onClick="signup" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:onClick="testing"
+        android:onClick="loginclick"
         android:id="@+id/LoginHomeButton"
         android:layout_marginBottom="26dp"
         android:layout_alignParentBottom="true"

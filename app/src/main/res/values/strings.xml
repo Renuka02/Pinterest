@@ -32,7 +32,7 @@
     <string name="title_activity_trial">trial</string>
     <string name="CreateButtonBulb">Create</string>
     <string name="MapTextBulb">Map</string>
-    <string name="app_id">1651007848479786</string>
+
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
@@ -41,4 +41,16 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_example">Example action</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_home_page_user">HomePageUser</string>
+    <string name="Homepageusertext">Name</string>
+    <string name="Optionbutton">New Button</string>
+    <string name="title_activity_connecting_option">ConnectingOption</string>
+    <string name="createboarduserres">createboarduser</string>
+    <string name="searchbuttonres">New Button</string>
+    <string name="chatbuttonres">Chat</string>
+    <string name="biobuttonres">Bio</string>
+    <string name="title_activity_ff">FF</string>
+    <string name="ffres">Name</string>
+    <string name="multibulb">abc</string>
 </resources>

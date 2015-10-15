@@ -1,30 +1,22 @@
 package com.example.renukamatkar.pinterest;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class Create_Board extends AppCompatActivity {
+public class FF extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_create__board);
-    }
-    public void cbbutton(View view){
-        Intent createboard = new Intent(this, Create_a_Board.class);
-
-        startActivity(createboard);
-
+        setContentView(R.layout.activity_ff);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_create__board, menu);
+        getMenuInflater().inflate(R.menu.menu_f, menu);
         return true;
     }
 
@@ -42,6 +34,4 @@ public class Create_Board extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
-    }
-
+}

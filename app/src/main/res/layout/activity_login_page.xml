@@ -68,5 +68,6 @@
         android:background="#ff0d0d"
         android:textSize="20dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/PasswordSigninText" />
+        android:layout_alignEnd="@+id/PasswordSigninText"
+        android:onClick="login2" />
 </RelativeLayout>

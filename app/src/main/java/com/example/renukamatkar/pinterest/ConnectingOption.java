@@ -7,24 +7,26 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class Create_Board extends AppCompatActivity {
+public class ConnectingOption extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_create__board);
-    }
-    public void cbbutton(View view){
-        Intent createboard = new Intent(this, Create_a_Board.class);
-
-        startActivity(createboard);
-
+        setContentView(R.layout.activity_connecting_option);
     }
 
-    @Override
+    //this is onclick function for login pages
+    public void createboardclick(View view) {
+        Intent createbc = new Intent(this, Create_Board.class);
+
+        startActivity(createbc);
+    }
+
+
+        @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_create__board, menu);
+        getMenuInflater().inflate(R.menu.menu_connecting_option, menu);
         return true;
     }
 
@@ -42,6 +44,4 @@ public class Create_Board extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
-    }
-
+}

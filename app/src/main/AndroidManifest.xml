@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.renukamatkar.pinterest" >
-
-    <uses-permission android:name="android.permission.INTERNET"/>
-
+//
     <application
         android:allowBackup="true"
         android:icon="@drawable/pic_pinterest"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/app_id"/>
         <activity
             android:name=".Home_page"
             android:label="@string/app_name" >
@@ -37,6 +31,18 @@
         <activity
             android:name=".Create_a_Board"
             android:label="@string/title_activity_create_a__board" >
+        </activity>
+        <activity
+            android:name=".HomePageUser"
+            android:label="@string/title_activity_home_page_user" >
+        </activity>
+        <activity
+            android:name=".ConnectingOption"
+            android:label="@string/title_activity_connecting_option" >
+        </activity>
+        <activity
+            android:name=".FF"
+            android:label="@string/title_activity_ff" >
         </activity>
     </application>
 
