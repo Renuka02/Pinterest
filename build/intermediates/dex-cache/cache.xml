@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\AVIN PC\Downloads\Pinterest-2015-10-17\Pinterest\app\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\AVIN PC\Downloads\Pinterest-2015-10-17\Pinterest\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-4bd0890339763427ac490ad7ab4bb58e0de42bfe.jar" />
+    </item>
+    <item
+        jar="C:\Users\AVIN PC\Downloads\Pinterest-2015-10-17\Pinterest\app\libs\library-1.2.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="82eda228c92c1aab3c0c8626497f13baf249cdb4">
+        <dex dex="C:\Users\AVIN PC\Downloads\Pinterest-2015-10-17\Pinterest\app\build\intermediates\pre-dexed\debug\library-1.2.2-c42d0934193250710dd222101c9dd21494ee5d0f.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.renukamatkar.pinterest.Search">
+    <item android:id="@+id/action_settings" android:title="Search User"
+        android:orderInCategory="100"
+        android:icon="@drawable/searchuser"
+        app:showAsAction="always" />
+</menu>
+<!-- From: file:/C:/Users/Priyanka/AndroidStudioProjects/pintrest/Pinterest-2015-10-17/Pinterest/app/src/main/res/menu/menu_search.xml -->

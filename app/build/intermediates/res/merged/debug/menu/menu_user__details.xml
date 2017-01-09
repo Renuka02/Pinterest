@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.renukamatkar.pinterest.User_Details">
+    <item android:id="@+id/action_logout" android:title="Logout"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/logout"
+        />
+</menu>
+<!-- From: file:/C:/Users/Priyanka/AndroidStudioProjects/pintrest/Pinterest-2015-10-17/Pinterest/app/src/main/res/menu/menu_user__details.xml -->

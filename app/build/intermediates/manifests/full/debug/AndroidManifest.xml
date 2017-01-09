@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.renukamatkar.pinterest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pic_pinterest"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.renukamatkar.pinterest.Home_page"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.Login_page"
+            android:label="@string/title_activity_login_page" >
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.RegistrationPage"
+            android:label="@string/title_activity_registration_page" >
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.Create_Board"
+            android:label="@string/title_activity_create__board" >
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.Create_a_Board"
+            android:label="@string/title_activity_create_a__board" >
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.HomePageUser"
+            android:label="@string/title_activity_home_page_user" >
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.ConnectingOption"
+            android:label="@string/title_activity_connecting_option" >
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.FF"
+            android:label="@string/title_activity_ff" >
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.User_Details"
+            android:label="@string/title_activity_user__details" >
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.MainHomePage"
+            android:label="@string/title_activity_main_home_page" >
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.Pin"
+            android:label="@string/title_activity_pin" >
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.ClickedUserDetails"
+            android:label="@string/title_activity_clicked_user_details" >
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.SearchUser"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.renukamatkar.pinterest.DisplayBoardPins"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="android.support.v7.widget.TestActivity"
+            android:label="RecyclerViewTestActivity" />
+    </application>
+
+</manifest>

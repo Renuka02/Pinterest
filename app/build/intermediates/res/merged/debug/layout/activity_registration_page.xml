@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.renukamatkar.pinterest.RegistrationPage"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:background="#ffbb85">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:id="@+id/FirstNameRegMessage"
+        android:layout_marginTop="33dp"
+        android:hint="@string/FirstNameRegText"
+        android:width="300dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:id="@+id/LastNameRegMessage"
+        android:layout_below="@+id/FirstNameRegMessage"
+        android:layout_marginTop="31dp"
+        android:hint="@string/LastNameRegText"
+        android:width="300dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:id="@+id/EmailRegMessage"
+        android:layout_below="@+id/LastNameRegMessage"
+        android:layout_marginTop="37dp"
+        android:hint="@string/EmailRegText"
+        android:width="300dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:id="@+id/PasswordRegMessage"
+        android:layout_below="@+id/EmailRegMessage"
+        android:hint="@string/PasswordRegText" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FemaleRegText"
+        android:id="@+id/FemaleRegButton"
+        android:checked="false"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/PasswordRegMessage"
+        android:textColor="#ff1018" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MaleRegText"
+        android:id="@+id/MaleRegButton"
+        android:checked="false"
+        android:layout_margin="10dp"
+        android:layout_alignTop="@+id/FemaleRegButton"
+        android:textColor="#ff1018" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/PasswordDetailRegText"
+        android:id="@+id/PasswordDetailMessage"
+        android:layout_below="@+id/PasswordRegMessage"
+        android:visibility="gone"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FemaleRegButton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="#ff0000"
+        android:textColor="#ffffff"
+        android:text="Register"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/regbutton"
+        />
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Priyanka/AndroidStudioProjects/pintrest/Pinterest-2015-10-17/Pinterest/app/src/main/res/layout/activity_registration_page.xml -->

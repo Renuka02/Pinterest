@@ -2,6 +2,7 @@ package com.example.renukamatkar.pinterest;
 
 import android.app.ActionBar;
 import android.content.Intent;// to call another activity page
+import android.content.SharedPreferences;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.content.pm.PackageInfo;
@@ -23,12 +24,17 @@ import android.content.pm.Signature;
 
 public class Home_page extends ActionBarActivity {
 
+    SharedPreferences sp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_home_page);
+        sp = getSharedPreferences("config",0);
+        if(sp.getInt("login",0)==1){
+            startActivity(new Intent(Home_page.this,MainHomePage.class));
+            finish();
+        }
     }
 
     //this is onclick function for login pages
@@ -67,6 +73,15 @@ public class Home_page extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if(sp.getInt("login",0)==1){
+            startActivity(new Intent(Home_page.this,User_Details.class));
+            finish();
+        }
     }
 }
   /*  @Override

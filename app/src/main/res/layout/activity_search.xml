@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.renukamatkar.pinterest.Search">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+    <AutoCompleteTextView
+        android:id="@+id/etsearchpins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Eg. batman"
+        android:layout_weight="0.25"
+        />
+
+        <Button
+            android:id="@+id/btsearchpins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_weight="0.75"
+            android:background="#B00423"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchlist"
+        ></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

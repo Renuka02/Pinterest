@@ -1,0 +1,91 @@
+<ScrollView
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_page"
+    android:orientation="vertical"
+    android:background="#ffbb85">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/PinterestHomeText"
+        android:id="@+id/PinterestHomeMessage"
+        android:textSize="55dp"
+        android:textColor="#ff0000"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FacebookHomeText"
+        android:id="@+id/FacebookHomeButton"
+        android:layout_below="@+id/PinterestHomeMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#6508ff"
+        android:visibility="invisible"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoogleHomeText"
+        android:id="@+id/GoogleHomeButton"
+        android:layout_below="@+id/FacebookHomeButton"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffffff"
+        android:background="#ff171f"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:id="@+id/EmailHomeButton"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/GoogleHomeButton"
+        android:textSize="20dp"
+        android:onClick="signup" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:onClick="loginclick"
+        android:id="@+id/LoginHomeButton"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="have an account?"
+        android:id="@+id/HomeText1"
+        android:layout_gravity="center"
+        android:layout_alignBaseline="@+id/LoginHomeButton"
+        android:layout_alignBottom="@+id/LoginHomeButton"
+        android:layout_margin="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+<!-- From: file:/C:/Users/Priyanka/AndroidStudioProjects/pintrest/Pinterest-2015-10-17/Pinterest/app/src/main/res/layout/activity_home_page.xml -->

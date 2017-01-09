@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_page"
+    android:orientation="vertical"
+    android:background="#ffbb85">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FacebookLoginText"
+        android:id="@+id/FacebookSiginbutton"
+        android:layout_marginTop="27dp"
+        android:visibility="invisible"
+        android:layout_margin="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#5f2cff"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="@string/GoogleLoginText"
+        android:id="@+id/GoogleSigninButton"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/FacebookSiginbutton"
+
+        android:layout_margin="10dp"
+        android:background="#ff3738"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/EmailSigninText"
+        android:layout_margin="10dp"
+        android:visibility="visible"
+        android:singleLine="true"
+        android:textIsSelectable="false"
+        android:hint="@string/EmailLoginText"
+        android:width="500dp"
+        android:layout_centerVertical="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/PasswordSigninText"
+        android:layout_below="@+id/EmailSigninText"
+        android:hint="@string/PasswordLoginText" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonLoginText"
+        android:id="@+id/LoginSIginButton"
+        android:layout_marginBottom="41dp"
+        android:layout_margin="10dp"
+        android:background="#ff0d0d"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:onClick="login2" />
+</LinearLayout>
+<!-- From: file:/C:/Users/Priyanka/AndroidStudioProjects/pintrest/Pinterest-2015-10-17/Pinterest/app/src/main/res/layout/activity_login_page.xml -->

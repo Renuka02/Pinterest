@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.renukamatkar.pinterest.MainHomePage">
+    <item android:id="@+id/user" android:title="Profile"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/user"
+        />
+    <item android:id="@+id/search" android:title="Search Pins"
+        android:orderInCategory="200" app:showAsAction="always"
+        android:icon="@drawable/search"
+        />
+</menu>
+<!-- From: file:/C:/Users/Priyanka/AndroidStudioProjects/pintrest/Pinterest-2015-10-17/Pinterest/app/src/main/res/menu/menu_main_home_page.xml -->

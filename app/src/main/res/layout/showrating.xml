@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:id = "@+id/ratbar"
+        android:isIndicator="true"
+        />
+
+    <Button
+        android:id = "@+id/gorating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate This Board"
+        android:background="#B00423"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+        android:id = "@+id/viewboardpins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Pins"
+        android:background="#B00423"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

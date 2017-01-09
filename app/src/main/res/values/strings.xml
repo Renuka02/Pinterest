@@ -53,4 +53,10 @@
     <string name="title_activity_ff">FF</string>
     <string name="ffres">Name</string>
     <string name="multibulb">abc</string>
+    <string name="title_activity_user__details">User_Details</string>
+    <string name="title_activity_main_home_page">Pintrest</string>
+    <string name="title_activity_pin">Pintrest</string>
+    <string name="title_activity_clicked_user_details">Pintrest</string>
+    <string name="title_activity_search">Pintrest</string>
+    <string name="title_activity_maps">maps</string>
 </resources>
